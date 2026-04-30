@@ -1,0 +1,31 @@
+# FORMAT: Team|Conference|Division|Primary Color|Secondary Color|Championships|Founded
+Atlanta Hawks|East|Southeast|Red|Yellow|1|1946
+Boston Celtics|East|Atlantic|Green|White|17|1946
+Brooklyn Nets|East|Atlantic|Black|White|0|1967
+Charlotte Hornets|East|Southeast|Teal|Purple|0|1988
+Chicago Bulls|East|Central|Red|Black|6|1966
+Cleveland Cavaliers|East|Central|Wine|Gold|1|1970
+Dallas Mavericks|West|Southwest|Blue|Silver|1|1980
+Denver Nuggets|West|Northwest|Navy|Gold|2|1967
+Detroit Pistons|East|Central|Red|Blue|3|1941
+Golden State Warriors|West|Pacific|Gold|Blue|7|1946
+Houston Rockets|West|Southwest|Red|Silver|2|1967
+Indiana Pacers|East|Central|Navy|Gold|0|1967
+Los Angeles Clippers|West|Pacific|Red|Blue|0|1970
+Los Angeles Lakers|West|Pacific|Purple|Gold|17|1947
+Memphis Grizzlies|West|Southwest|Navy|Gold|0|1995
+Miami Heat|East|Southeast|Red|Black|3|1988
+Milwaukee Bucks|East|Central|Green|Cream|2|1968
+Minnesota Timberwolves|West|Northwest|Navy|Green|0|1989
+New Orleans Pelicans|West|Southwest|Navy|Gold|0|1988
+New York Knicks|East|Atlantic|Blue|Orange|2|1946
+Oklahoma City Thunder|West|Northwest|Blue|Orange|1|1967
+Orlando Magic|East|Southeast|Blue|Black|0|1989
+Philadelphia 76ers|East|Atlantic|Blue|Red|3|1946
+Phoenix Suns|West|Pacific|Purple|Orange|0|1968
+Portland Trail Blazers|West|Northwest|Red|Black|1|1970
+Sacramento Kings|West|Pacific|Purple|Silver|1|1945
+San Antonio Spurs|West|Southwest|Black|Silver|5|1967
+Toronto Raptors|East|Atlantic|Red|Black|1|1995
+Utah Jazz|West|Northwest|Navy|Yellow|0|1974
+Washington Wizards|East|Southeast|Navy|Red|1|1961
