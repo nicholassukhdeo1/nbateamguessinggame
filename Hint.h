@@ -1,6 +1,6 @@
 #pragma once
 #include <string>
-#include "team.h"
+#include "Team.h"
 using namespace std;
 
 // base class for all hints, every hint type inherits from this

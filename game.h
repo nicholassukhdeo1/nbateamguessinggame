@@ -1,8 +1,8 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "team.h"
-#include "hint.h"
+#include "Team.h"
+#include "Hint.h"
 
 using namespace std;
 
