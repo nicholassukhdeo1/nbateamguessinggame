@@ -2,6 +2,7 @@
 #include <string>
 #include <vector>
 #include "team.h"
+#include "hint.h"
 
 using namespace std;
 
@@ -17,7 +18,7 @@ bool hasWon(string guessedTeam);
 
 bool turnLogic(string guessedTeam);
 
-int getguessesLeft();
+int getGuessesLeft();
 
 
 

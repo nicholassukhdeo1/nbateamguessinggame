@@ -1,4 +1,4 @@
-#include "Hint.h"
+#include "hint.h"
 #include <iostream>
 using namespace std;
 
