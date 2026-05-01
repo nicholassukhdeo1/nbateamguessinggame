@@ -1,26 +1,29 @@
-#include "game.h"
 #include <iostream>
+#include <string>
+#include "game.h"
 using namespace std;
 
 int main() {
-    Game game;
-    string guess;
+    string guessedTeam;
 
-    cout << "Welcome to the NBA Team Guessing Game!" << endl;
-    cout << "You have " << game.getGuessesLeft() << " guesses." << endl;
+    Game currentGame;
 
-    while (game.getGuessesLeft() > 0) {
-        cout << "\nGuess the NBA team: ";
-        getline(cin, guess);
+    cout << "Guess the NBA team! You have 6 tries." << endl;
+    cout << "Enter the full team name (ex: Los Angeles Lakers): " << endl;
 
-        if (game.turnLogic(guess)) {
-            cout << "Correct! You guessed the team!" << endl;
+    while (currentGame.getGuessesLeft() > 0) {
+        cout << "\nGuesses left: " << currentGame.getGuessesLeft() << endl;
+        getline(cin, guessedTeam); // getline handles team names with spaces
+
+        if (currentGame.turnLogic(guessedTeam)) {
+            cout << "Correct! You won." << endl;
             return 0;
         }
 
-        cout << "Guesses left: " << game.getGuessesLeft() << endl;
+        if (currentGame.getGuessesLeft() > 0)
+            cout << "Wrong guess, try again!" << endl;
     }
 
-    cout << "Out of guesses! Better luck next time." << endl;
+    cout << "Out of guesses. You lost!" << endl;
     return 0;
 }
